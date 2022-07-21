@@ -1,5 +1,11 @@
 @import url('https://fonts.google.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
+@media screen and (max-width: 768px) {
+    section, aside {
+        width: 100%;
+        padding: 0;
+    }
+}
 
 *{
     margin: 0;
@@ -51,7 +57,8 @@ nav li a:hover{
 
 
 .banner{
-    height: 900px;
+    width: 3000px;
+    height: 3000px;
     background: linear-gradient(rgba(255, 255, 255, 0.127),rgba(255, 255, 255, 0)),url('background5.jpg');
     background-repeat: no-repeat;
 }
