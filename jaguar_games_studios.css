@@ -1,0 +1,116 @@
+@import url('https://fonts.google.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    background-color: lime;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .Logo a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 5px;
+}
+nav li{
+    margin-left: 20px;
+}
+nav li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 28px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+nav li a:hover{
+    font-size: 24px;
+    background-color: white;
+    color: black;
+    box-shadow: 2px 2px 2px #000;
+}
+
+
+.banner{
+    height: 900px;
+    background: linear-gradient(rgba(255, 255, 255, 0.127),rgba(255, 255, 255, 0)),url('background5.jpg');
+    background-repeat: no-repeat;
+}
+
+.texto .botoes button.n-overlay {
+    color: white;
+    background: none;
+    border: 2px solid white;
+    user-select: none;
+}
+
+.texto .botoes button.n-overlay:hover{
+    color: black;
+    background-color: white;
+}
+
+.texto .botoes button.overlay{
+    background: white;
+    color: black;
+    animation: vibrar 0.9s ease-in-out infinite both;
+    user-select: none;
+}
+
+.texto .botoes button.overlay:hover{
+    background: rgba(255, 255, 255, 0.704);
+}
+
+.titulo{
+    margin-left: 5rem;
+    color: white;
+    font-size: 80px;
+}
+.sub_titulo{
+    margin-left: 5rem;
+    color: white;
+    font-size: 80px;
+}
+.texto .botoes button{
+    font-size: 23px;
+    width: 8%;
+    margin-top: 5rem;
+    margin-right: -3rem;
+    margin-left: 6rem;
+    height: 3.5rem;
+    cursor: pointer;
+    outline: none;
+    transition: 0.3s;
+    border-radius: 5px;
+    font-weight: 300;
+}
+
+@keyframes vibrar {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
