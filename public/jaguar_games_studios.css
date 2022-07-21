@@ -57,7 +57,6 @@ nav li a:hover{
 
 
 .banner{
-    width: 3000px;
     height: 3000px;
     background: linear-gradient(rgba(255, 255, 255, 0.127),rgba(255, 255, 255, 0)),url('background5.jpg');
     background-repeat: no-repeat;
