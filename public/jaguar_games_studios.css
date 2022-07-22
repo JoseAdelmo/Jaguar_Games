@@ -57,7 +57,7 @@ nav li a:hover{
 
 
 .banner{
-    height: 5000px;
+    height: 9000px;
     background: linear-gradient(rgba(255, 255, 255, 0.127),rgba(255, 255, 255, 0)),url('background5.jpg');
     background-repeat: no-repeat;
 }
@@ -83,6 +83,7 @@ nav li a:hover{
 
 .texto .botoes button.overlay:hover{
     background: rgba(255, 255, 255, 0.704);
+    text-decoration: none;
 }
 
 .titulo{
