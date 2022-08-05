@@ -94,7 +94,7 @@ nav ul li a:hover{
     animation: vibrar 0.9s ease-in-out infinite both;
     user-select: none;
     font-size: 30px;
-    margin-left: -500px;
+    margin-left: -100px;
     padding-bottom: 18px;
     padding-top: 9px;
     padding-left: 5px;
