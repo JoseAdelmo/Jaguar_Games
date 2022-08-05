@@ -14,7 +14,6 @@ body{
     font-style: normal;
 }
 .container{
-    font-family: 'Sparta';
     max-width: 1500px;
     margin: 0 auto;
     padding: 0 -6%;
@@ -23,7 +22,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 100px;
+    height: 90px;
 }
 nav .Logo a{
     font-size: 30px;
@@ -32,7 +31,6 @@ nav .Logo a{
     text-decoration: none;
 }
 nav ul {
-    font-family: 'Sparta';
     display: flex;
     list-style: none;
     align-items: center;
@@ -69,12 +67,14 @@ nav ul li a:hover{
 }
 
 #galery1{
-    background: url("../img/background5.jpg") center center no-repeat;
+    background: url("img/background5.jpg") center center no-repeat;
+    height: 1150px;
 }
 #logo1{
-    background: url("../img/jaguargamesyt.jpg");
+    background: url("img/jaguargamesyt.jpg");
     width: 180px;
     height: 90px;
+    margin-top: 20px;
     margin-left: 20px;
 }
 .description{
