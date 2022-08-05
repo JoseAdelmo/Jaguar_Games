@@ -14,6 +14,7 @@ body{
     font-style: normal;
 }
 .container{
+    font-family: 'Sparta';
     max-width: 1500px;
     margin: 0 auto;
     padding: 0 -6%;
@@ -31,6 +32,7 @@ nav .Logo a{
     text-decoration: none;
 }
 nav ul {
+    font-family: 'Sparta';
     display: flex;
     list-style: none;
     align-items: center;
