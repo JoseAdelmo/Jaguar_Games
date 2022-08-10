@@ -94,16 +94,19 @@ nav ul li a:hover{
     animation: vibrar 0.9s ease-in-out infinite both;
     user-select: none;
     font-size: 30px;
-    margin-left: -400px;
+    margin-left: -750px;
     padding-bottom: 18px;
     padding-top: 9px;
-    padding-left: 5px;
     padding-right: 5px;
+}
+
+.botao2 a{
+    text-decoration: none;
 }
 .botao2 button.overlay:hover{
     background: rgba(255, 255, 255, 0.704);
-    text-decoration: none;
 }
+
 .botao1 button.n-overlay {
     display: flex;
     color: white;
@@ -111,7 +114,7 @@ nav ul li a:hover{
     border: 2px solid white;
     user-select: none;
     font-size: 30px;
-    margin-left: -200px;
+    margin-left: -250px;
     padding-bottom: 18px;
     padding-top: 9px;
     padding-left:5px ;
