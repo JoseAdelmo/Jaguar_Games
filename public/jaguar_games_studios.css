@@ -37,7 +37,7 @@ nav ul {
 }
 
 nav ul li{
-padding: 0 10px;
+    padding: 0 10px;
 }
 
 nav ul li a{
@@ -61,14 +61,15 @@ nav ul li a:hover{
 }
 
 .but{
-    margin-top: 150px;
+    margin-top: 80px;
     display: flex;
     justify-content: space-around;
 }
 
 #galery1{
     background: url("img/background5.jpg") center center no-repeat;
-    height: 1150px;
+    height: 1200px;
+    width: 1400px;
 }
 #logo1{
     background: url("img/jaguargamesyt.jpg");
@@ -80,7 +81,7 @@ nav ul li a:hover{
 .description{
     font-family: 'Sparta';
     color: white;
-    font-size: 80px;
+    font-size: 73px;
     width: 450px;
     height: 350px;
     margin: 20px;
@@ -94,7 +95,7 @@ nav ul li a:hover{
     animation: vibrar 0.9s ease-in-out infinite both;
     user-select: none;
     font-size: 30px;
-    margin-left: -750px;
+    margin-left: -770px;
     padding-bottom: 18px;
     padding-top: 9px;
     padding-right: 5px;
@@ -114,7 +115,7 @@ nav ul li a:hover{
     border: 2px solid white;
     user-select: none;
     font-size: 30px;
-    margin-left: -250px;
+    margin-left: -305px;
     padding-bottom: 18px;
     padding-top: 9px;
     padding-left:5px ;
