@@ -17,29 +17,29 @@ body {
     font-family: 'Kanit', sans-serif;
     font-size: 55px;
     color: white;
-    padding-top: 70px;
+    padding-top: 40px;
     padding-left: 20px;
     padding-right: 40px;
 }
 
 #description1 {
-    background: url("img/JAGUAR1.jpg") center center no-repeat;
-    padding-left: 59px;
+    background-image: url("img/JAGUAR1.jpg");
     background-size: cover;
-    background-attachment: fixed;
-    height: 80vh;
+    background-size: contain;
     overflow-y: scroll;
+    padding-left: 59px;
+    height: 80vh;
 }
 
 #logo1 {
-    height: 100px;
     margin-top: 80px;
     margin-left: 120px;
+    height: 100px;
 }
 nav {
-    margin-top: -15%;
     display: flex;
     justify-content: space-between;
+    margin-top: -15%;
     height: 200px;
     z-index: 100;
 }
