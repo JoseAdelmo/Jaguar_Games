@@ -3,8 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    background-color: lime;
+body {
+    background-image: url(img/background5.jpg);
+    background-size: 100vw 100vh;
     min-height: 100vh;
 }
 @font-face{
@@ -34,6 +35,9 @@ nav ul {
     display: flex;
     list-style: none;
     align-items: center;
+    justify-content: space-evenly;
+    margin-right: 2vw;
+    gap: 3vw;
 }
 
 nav ul li{
@@ -54,29 +58,24 @@ nav ul li a:hover{
     color: black;
     box-shadow: 2px 2px 2px #000;
 }
-.galery{
+.galery {
     width: 1500px;
     height: 1150px;
     border: 1px solid gray;
 }
 
-.but{
+.but {
     margin-top: 80px;
     display: flex;
     justify-content: space-around;
 }
 
-#galery1{
-    background: url("img/background5.jpg") center center no-repeat;
-    height: 1200px;
-    width: 1400px;
-}
-#logo1{
+#logo1 {
     background: url("img/jaguargamesyt.jpg");
-    width: 180px;
+    width: 240px;
     height: 90px;
     margin-top: 20px;
-    margin-left: 20px;
+    margin-left: 45px;
 }
 .description{
     font-family: 'Sparta';
@@ -145,6 +144,56 @@ nav ul li a:hover{
         transform: scale(1.1);
     }
     100%{
+        transform: scale(1);
+    }
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 6vh;
+    gap: 3vh
+}
+
+main section {
+    margin-left: 3vw;
+}
+
+main section h1 {
+    margin-top: 5vh;
+    font-family: 'Sparta';
+    font-size: 12vh;
+    color: white;
+}
+
+
+main section:nth-child(2) {
+    display: flex;
+    gap: 6vw;
+}
+
+main section:nth-child(2) button {
+    margin-top: 5vh;
+    width: 14vw;
+    height: 7vh;
+    font-size: 3vh;
+    background-color: transparent;
+    border-color: green;
+    border-style: inset;
+    border-radius: 1vh;
+    font-family: 'Sparta';
+    color: white;
+    animation: vibrar 1.9s ease-in-out infinite both;
+}
+
+@keyframes vibrar {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
         transform: scale(1);
     }
 }
