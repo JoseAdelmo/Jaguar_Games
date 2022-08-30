@@ -132,7 +132,8 @@ main {
     color: white;
 }
 
-.logo img {
+.logo a img {
+    background-image: url(./img/jaguargamesyt.png);
     margin-top: 20px;
     width: 280px;
     margin-left: -10px;
