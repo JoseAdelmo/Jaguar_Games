@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital@1&family=Roboto:wght@500&display=swap');
+
+*{
+   margin: 0; 
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Kanit', sans-serif;
+}
+
+body {
+     background-image: linear-gradient(#00000088, #00000028),url("img/background5.jpg");
+     min-height: 100vh;
+     background-size: cover;
+}
+
+.container {
+    max-width: 1300px;
+    padding: 0 -8%;
+    margin: 0 auto;
+}
+
+#logo1 {
+    width: 20rem;
+}
+
+nav {
+    margin-top: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 2rem 2rem 2rem 2rem;
+}
+
+nav ul a {
+   text-decoration: none;
+   color: white;
+   font-size: 1.8rem;
+}
+
+nav ul a::after {
+    content: '';
+    background-color: lime;
+    height: 3px;
+    display: block;
+    width: 0%;
+    transition: 0.3s;
+}
+
+nav ul a:hover::after {
+    width: 100%;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+.text-main {
+     width: 50%;
+     color: white;
+}
+.text-main h1 {
+    font-size: 120px;
+}
+.text-main h1 span {
+    color: lime;
+}
+
+::selection {
+    background-color: lime;
+    color: white;
+}
+
+.logo a img {
+    background-image: url(./img/jaguargamesyt.png);
+    margin-top: 20px;
+    width: 280px;
+    margin-left: -10px;
+} 
+
+main {
+    flex-direction: column;
+}
+
+.welcome {
+    font-size: 2.8rem;
+    color: white;
+    margin-right: 40rem;
+}
+
+.buttons {
+    flex-direction: row;
+    margin-top: 2rem;
+    margin-right: 64rem;
+}
+
+#button1 {
+    margin-right: 2rem;
+    user-select: none;
+}
+
+button {
+    width: 7rem;
+    height: 3rem;
+    border-radius: 0.3rem;
+    animation: vibrar 1.9s ease-in-out infinite both;
+    border-color: green;
+    box-shadow: 2vh 2vh 2vh rgba(0, 0, 0, 0.5);
+    color: green;
+}
+
+button a {
+    color: green;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+@keyframes vibrar {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale (1);
+    }
+}
+

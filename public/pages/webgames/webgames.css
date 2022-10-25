@@ -98,7 +98,26 @@ nav ul li a:hover {
     background-color: none;
 }
 
-.botao2 button.overlay {
+.botao1 button {
+    display: flex;
+    color: white;
+    background: none;
+    border: 2px solid white;
+    user-select: none;
+    font-size: 30px;
+    margin-left: -250px;
+    padding-bottom: 18px;
+    padding-top: 9px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.botao1:hover {
+    color: black;
+    background-color: white;
+}
+
+.botao2 button {
     background: white;
     color: black;
     animation: vibrar 0.9s ease-in-out infinite-both;
@@ -114,27 +133,8 @@ nav ul li a:hover {
     text-decoration: none;
 }
 
-.botao2 button.overlay:hover {
+.botao2 button:hover {
     background: rgba (255,255,255,0.704);
-}
-
-.botao1 button.n-overlay {
-    display: flex;
-    color: white;
-    background: none;
-    border: 2px solid white;
-    user-select: none;
-    font-size: 30px;
-    margin-left: -250px;
-    padding-bottom: 18px;
-    padding-top: 9px;
-    margin-left: 5px;
-    margin-right: 5px;
-}
-
-.botao1 .n-overlay:hover {
-    color: black;
-    background-color: white;
 }
 
 .titulo {
@@ -159,6 +159,11 @@ nav ul li a:hover {
     100% {
         transform: scale(1);
     }
+}
+
+::selection {
+    background-color: lime;
+    color: white;
 }
 
 main {
