@@ -64,16 +64,6 @@ main {
     justify-content: space-between;
     margin-top: 80px;
 }
-.text-main {
-     width: 50%;
-     color: white;
-}
-.text-main h1 {
-    font-size: 120px;
-}
-.text-main h1 span {
-    color: lime;
-}
 
 ::selection {
     background-color: lime;
@@ -116,6 +106,7 @@ button {
     border-color: green;
     box-shadow: 2vh 2vh 2vh rgba(0, 0, 0, 0.5);
     color: green;
+    cursor: pointer;
 }
 
 button a {
