@@ -51,7 +51,7 @@ nav ul a::after {
     height: 3px;
     display: block;
     width: 0%;
-    transition: 0.3s;
+    transition: 0,3s;
 }
 
 nav ul a:hover::after {

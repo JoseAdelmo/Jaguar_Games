@@ -1,73 +1,78 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital@1&family=Roboto:wght@500&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+*{
+   margin: 0; 
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Kanit', sans-serif;
 }
 
 body {
-    background-color: gray;
-    overflow-y: hidden;
-    overflow-x: hidden;
-    margin-top: 10%;
+     background-image: linear-gradient(#00000088, #00000028),url("img/background6.jpg");
+     min-height: 100vh;
+     background-size: cover;
 }
 
-.description {
-    font-family: 'Kanit', sans-serif;
-    font-size: 55px;
-    color: white;
-    padding-top: 40px;
-    padding-left: 20px;
-    padding-right: 40px;
+.container {
+    max-width: 1300px;
+    padding: 0 -8%;
+    margin: 0 auto;
 }
 
-#description1 {
-    background-image: url("img/JAGUAR1.jpg");
-    background-size: cover;
-    background-size: contain;
-    overflow-y: scroll;
-    padding-left: 59px;
-    height: 80vh;
-}
-
-#logo1 {
-    margin-top: 80px;
-    margin-left: 120px;
-    height: 100px;
-}
 nav {
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    margin-top: -15%;
-    height: 200px;
-    z-index: 100;
 }
 
 nav ul {
     display: flex;
     list-style: none;
-    align-items: center;
 }
 
-nav ul li{
-    padding: 0 755px;
-    margin-top: 60px;
+nav ul li {
+    margin: 0 50px;
 }
 
-nav ul li a{
-    font-family: 'Kanit';
-    text-decoration: none;
-    font-size: 44px;
-    color: white;
-    border-radius: 7px;
+nav ul a {
+   text-decoration: none;
+   color: white;
+   font-size: 25px;
+}
+
+nav ul a::after {
+    content: '';
+    background-color: lime;
+    height: 3px;
+    display: block;
+    width: 0%;
     transition: 0.3s;
 }
 
-nav ul li a:hover {
-    font-size: 44px;
-    background-color: white;
-    color: black;
-    box-shadow: 5px 5px 5px #000;
+nav ul a:hover::after {
+    width: 100%;
 }
 
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+::selection {
+    background-color: lime;
+    color: white;
+}
+
+.logo a img {
+    background-image: url(./img/jaguargamesyt.png);
+    margin-top: 20px;
+    width: 280px;
+    margin-left: -10px;
+}
+
+p {
+    color: white;
+    font-size: 2.8rem;
+}
