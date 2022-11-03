@@ -26,6 +26,7 @@ h1 {
 
 img {
     height: 39.8rem;
+    width: 75rem;
 }
 
 .games-img {
@@ -55,13 +56,13 @@ h3 {
 }
 
 .snaketext {
-    margin-left: 55rem;
-    margin-right: 55rem;
+    margin-left: 47rem;
+    margin-right: 47rem;
 }
 
 .snakebutton {
-    margin-left: 55rem;
-    margin-right: 55rem;
+    margin-left: 50rem;
+    margin-right: 50rem;
 }
 
 ::selection {
@@ -77,9 +78,9 @@ button {
     width: 20rem;
     height: 12rem;
     animation: vibrar 1.9s ease-in-out infinite both;
-    border-color: green;
+    border-color: lime;
     box-shadow: 2vh 2vh 2vh rgba(0, 0, 0, 0.5);
-    color: green;
+    color: black;
     cursor: pointer;
     font-size: 5rem;
     margin: 9rem 9rem 9rem 9rem;
