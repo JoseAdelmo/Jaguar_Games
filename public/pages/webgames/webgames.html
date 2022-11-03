@@ -7,32 +7,26 @@
     <link rel="stylesheet" href="webgames.css" type="text/css">
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="/">Home</a></li>
-        </ul>
-    </nav>
-
     <main>
         <h1> Web-Games </h1>
-        <div id="games-page">
-            <div>
-                <img class="img-game" src="img/blackjack.png" alt= "imagem do jogo Black Jack">
-                <h3> Black Jack </h3>
-                <a href="https://imkennyyip.github.io/black-jack/"> <button type="submit">Play</button> </a>
-            </div>
 
-            <div>
-                <img class="img-game" src="img/snakegame.png" alt="imagem do jogo Snake Game">
-                <h3> Snake-Game </h3>
-                <a href="https://joseadelmo.github.io/Snake-Web-Game-BR/"> <button type="submit">Play</button> </a>
-            </div>
+        <div class="games-text">
+            <h3> Black Jack </h3>
+            <h3 class="snaketext"> Snake-Game </h3>
+            <h3 class="pacmantext">   Pacman   </h3>
+        </div>
+        
+        <div class="games-img">
+                <img src="img/blackjack.png" alt= "imagem do jogo Black Jack">
+                <img class="snakegameimg"src="img/snakegame.png" alt="imagem do jogo Snake Game">
+                <img src="img/pacman.png" alt="imagem do jogo Pacman">
+        </div>
 
-            <div>
-                <img class="img-game" src="img/pacman.png" alt="imagem do jogo Pacman">
-                <h3> Pacman </h3>
-                <a href="https://joseadelmo.github.io/Pacman-2.0-Web-Game-BR/"><button type="submit">Play</button></a>
-            </div>
+        <div class="buttons">
+            <button href="https://joseadelmo.github.io/Pacman-2.0-Web-Game-BR/">Play</a>
+            <button class="snakebutton" href="https://joseadelmo.github.io/Snake-Web-Game-BR/">Play</a>
+            <button href="https://imkennyyip.github.io/black-jack/">Play</a>
+        </div>
     </main>
 
     <script src="main.js"></script>

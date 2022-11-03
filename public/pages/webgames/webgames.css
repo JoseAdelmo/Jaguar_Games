@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital@1&family=Roboto:wght@500&display=swap');
 
-*{
+* {
    margin: 0; 
    padding: 0;
    box-sizing: border-box;
@@ -13,59 +13,55 @@ body {
     background-size: 100vw 100vh;
 }
 
-.container {
-    max-width: 1300px;
-    padding: 0 -8%;
-    margin: 0 auto;
-}
-
-nav {
-    margin-top: 0.8rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-nav ul {
-    display: flex;
-    list-style: none;
-}
-
-nav ul li {
-    margin: 2rem 2rem 2rem 2rem;
-    margin-left: 75rem;
-}
-
-nav ul a {
-   text-decoration: none;
-   color: white;
-   font-size: 1.8rem;
-}
-
-nav ul a::after {
-    content: '';
-    background-color: lime;
-    height: 3px;
-    display: block;
-    width: 0%;
-    transition: 0,3s;
-}
-
-nav ul a:hover::after {
-    width: 100%;
-}
-
 main {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 80px;
     color: white;
 }
 
-h3 {
+h1 {
+    font-size: 9rem;
+    margin-top: 4rem;
     text-align: center;
-    font-size: 2.8rem;
+}
+
+img {
+    height: 39.8rem;
+}
+
+.games-img {
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.snakegameimg {
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.buttons {
+    text-align: center;
+    justify-content: space-between;
+}
+
+h3 {
+    font-size: 6rem;
+}
+
+.games-text {
+    display: flex;
+    justify-content: center;
+    margin-right: 6rem;
+    margin-top: 10rem;
+}
+
+.snaketext {
+    margin-left: 55rem;
+    margin-right: 55rem;
+}
+
+.snakebutton {
+    margin-left: 55rem;
+    margin-right: 55rem;
 }
 
 ::selection {
@@ -77,32 +73,16 @@ main {
     flex-direction: column;
 }
 
-.buttons {
-    flex-direction: row;
-    margin-top: 2rem;
-    margin-right: 64rem;
-}
-
-#button1 {
-    margin-right: 2rem;
-    user-select: none;
-}
-
 button {
-    width: 15rem;
-    height: 7rem;
-    border-radius: 0.3rem;
+    width: 20rem;
+    height: 12rem;
     animation: vibrar 1.9s ease-in-out infinite both;
     border-color: green;
     box-shadow: 2vh 2vh 2vh rgba(0, 0, 0, 0.5);
     color: green;
     cursor: pointer;
-}
-
-button a {
-    color: green;
-    font-size: 1rem;
-    text-decoration: none;
+    font-size: 5rem;
+    margin: 9rem 9rem 9rem 9rem;
 }
 
 @keyframes vibrar {
