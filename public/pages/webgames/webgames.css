@@ -86,6 +86,11 @@ button {
     margin: 9rem 9rem 9rem 9rem;
 }
 
+button a {
+    text-decoration: none;
+    color: black;
+}
+
 @keyframes vibrar {
     0% {
         transform: scale(1);
