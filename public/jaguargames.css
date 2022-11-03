@@ -13,18 +13,14 @@ body {
      background-size: cover;
 }
 
-.container {
-    max-width: 1300px;
-    padding: 0 -8%;
-    margin: 0 auto;
-}
-
 #logo1 {
-    width: 20rem;
+    height: 10rem;
+    margin-bottom: 1rem;
+    margin-left: 30rem;
 }
 
 nav {
-    margin-top: 0.8rem;
+    margin-top: 5rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -36,13 +32,13 @@ nav ul {
 }
 
 nav ul li {
-    margin: 2rem 2rem 2rem 2rem;
+    margin-right: 20rem;
 }
 
 nav ul a {
    text-decoration: none;
    color: white;
-   font-size: 1.8rem;
+   font-size: 3.5rem;
 }
 
 nav ul a::after {
@@ -62,7 +58,8 @@ main {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 80px;
+    margin-top: 10rem;
+    flex-direction: column;
 }
 
 ::selection {
@@ -70,48 +67,37 @@ main {
     color: white;
 }
 
-.logo a img {
-    background-image: url(./img/jaguargamesyt.png);
-    margin-top: 20px;
-    width: 280px;
-    margin-left: -10px;
-} 
-
-main {
-    flex-direction: column;
-}
-
 .welcome {
-    font-size: 2.8rem;
+    font-size: 6rem;
     color: white;
-    margin-right: 40rem;
-}
-
-.buttons {
-    flex-direction: row;
-    margin-top: 2rem;
-    margin-right: 64rem;
+    margin-right: 100rem;
 }
 
 #button1 {
-    margin-right: 2rem;
-    user-select: none;
+    margin-right: 3rem;
+}
+
+#button2 {
+    font-size: 2rem;
+    margin-right: 150rem;
+}
+
+.buttons {
+    margin-top: 12rem;
 }
 
 button {
-    width: 7rem;
-    height: 3rem;
-    border-radius: 0.3rem;
+    border-radius: 1rem;
     animation: vibrar 1.9s ease-in-out infinite both;
-    border-color: green;
+    border-color: lime;
     box-shadow: 2vh 2vh 2vh rgba(0, 0, 0, 0.5);
-    color: green;
     cursor: pointer;
+    width: 18rem;
 }
 
 button a {
-    color: green;
-    font-size: 1rem;
+    color: black;
+    font-size: 4rem;
     text-decoration: none;
 }
 
