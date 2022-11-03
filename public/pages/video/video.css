@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital@1&family=Roboto:wght@500&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
 }
 
 body {
@@ -13,71 +16,12 @@ body {
     overflow-x: hidden;
 }
 
-@font-face {
-    font-family: 'Sparta';
-    src: url('GODOFWAR.TTF')
-    format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 90px;
-}
-
-nav .Logo a {
-    font-size: 30px;
-    font-weight: bold;
-    color: lime;
-    text-decoration: none;
-}
-
-nav ul {
-    display: flex;
-    list-style: none;
-    align-items: center;
-    justify-content: space-evenly;
-    gap: 2vw;
-    margin-right: 3vw;
-}
-
-nav ul li{
-padding: 0 10px;
-}
-
-nav ul li a {
-    font-family: 'Sparta';
-    text-decoration: none;
-    font-size: 24px;
-    color: white;
-    border-radius: 7px;
-    transition: 0.3s;
-}
-
-nav ul li a:hover {
-    font-size: 29px;
-    background-color: white;
-    color: black;
-    box-shadow: 2px 2px 2px #000;
-}
-
-#logo1 {
-    width: 180px;
-    height: 90px;
-    margin-top: 20px;
-    margin-left: 20px;
-}
-
 main {
     display: flex;
     flex-direction: column;
 }
 
 main h1 {
-    font-family: 'Sparta';
     margin-top: 5vh;
     backdrop-filter: blur(0.4);
     color: white;
@@ -87,44 +31,60 @@ main h1 {
 
 #footer {
     display: flex;
-    width: 100vw;
-    justify-content: flex-end;
+    margin-right: 45rem;
+    font-size: 3rem;
 }
 
-main div a h3:hover {
-    font-size: 29px;
-    background-color: white;
+#footer h3 a {
     color: black;
-    box-shadow: 2px 2px 2px #000;
-    border-radius: 1vh;
 }
 
+#footer h3 {
+    height: 10rem;
+}
+
+button {
+    margin-top: 87rem;
+    width: 10rem;
+    height: 10rem;
+    font-size: 3rem;
+    border-color: lime;
+    cursor: pointer;
+    transition: all 2s ease-in-out;
+}
+
+button:hover {
+    transform: rotate(-360deg);
+}
 main div a h3 {
     text-decoration: none;
-    font-family: 'Sparta';
     margin-top: 5vh;
-    backdrop-filter: blur(0.4vh);
     color: white;
     margin-left: 2vw;
     margin-right: 14vw;
     font-size: 4vh;
-    animation: vibrar 1.9s ease-in-out infinite both;
+}
+
+main div a h3:hover::after{
+    width: 100%;
+}
+
+main div a h3::after {
+    content: '';
+    background-color: lime;
+    display: block;
+    height: 1rem;
+    width: 0%;
+    transition: 0,3s;
 }
 
 main div a {
     text-decoration: none;
 }
 
-@keyframes vibrar {
-    0% {
-        transform: scale(1);
-    }
-    50% {
-        transform: scale(1.1);
-    }
-    100% {
-        transform: scale (1);
-    }
+::selection {
+    background-color: lime;
+    color: white;
 }
 
 #video-pages {
@@ -137,4 +97,17 @@ main div a {
 .video {
     width: 25vw;
     height: 30vh;
+    animation: vibrar 1.9s ease-in infinite both;
+}
+
+@keyframes vibrar {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.02);
+    }
+    100% {
+        transform: scale(1);
+    }
 }

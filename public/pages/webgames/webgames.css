@@ -1,152 +1,108 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital@1&family=Roboto:wght@500&display=swap');
+
+*{
+   margin: 0; 
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Kanit', sans-serif;
 }
+
 
 body {
     background-image: url(img/jaguargamesstudioswallpaper.jpg);
     background-size: 100vw 100vh;
-    background-repeat: no-repeat;
-    min-height: 100vh;
-}
-
-@font-face {
-    font-family: 'Sparta';
-    src: url('GODOFWAR.TTF')
-    format('truetype');
-    font-weight: normal;
-    font-style: normal;
 }
 
 .container {
-    max-width: 1500px;
+    max-width: 1300px;
+    padding: 0 -8%;
     margin: 0 auto;
-    padding: 0 -6%;
 }
 
 nav {
+    margin-top: 0.8rem;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    height: 90px;
-}
-
-nav .Logo a {
-    font-size: 30px;
-    font-weight: bold;
-    color: lime;
-    text-decoration: none;
+    justify-content: space-between;
 }
 
 nav ul {
     display: flex;
     list-style: none;
-    align-items: center;
-    justify-content: space-evenly;
-    margin-right: 2vw;
-    gap: 3vw;
 }
 
 nav ul li {
-    padding: 0 10px;
+    margin: 2rem 2rem 2rem 2rem;
+    margin-left: 75rem;
 }
 
-nav ul li a {
-    font-family: 'Sparta';
-    text-decoration: none;
-    font-size: 24px;
-    color: white;
-    border-radius: 7px;
-    transition: 0.3s;
+nav ul a {
+   text-decoration: none;
+   color: white;
+   font-size: 1.8rem;
 }
 
-nav ul li a:hover {
-    font-size: 29px;
-    background-color: white;
-    color: black;
-    box-shadow: 2px 2px 2px #000;
+nav ul a::after {
+    content: '';
+    background-color: lime;
+    height: 3px;
+    display: block;
+    width: 0%;
+    transition: 0,3s;
 }
 
-.galery {
-    width: 1500px;
-    height: 1150px;
-    border: 1px solid gray;
+nav ul a:hover::after {
+    width: 100%;
 }
 
-.but {
-    margin-top: 150px;
+main {
     display: flex;
-    justify-content: space-around;
-}
-
-#logo1 {
-    width: 180px;
-    height: 90px;
-    margin-top: 20px;
-    margin-left: 20px
-}
-
-.description {
-    font-family: 'Sparta';
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 80px;
     color: white;
-    font-size: 80px;
-    width: 450px;
-    height: 350px;
-    margin: 20px;
-    padding: 10px 20px;
-    background-color: none;
 }
 
-.botao1 button {
-    display: flex;
+h3 {
+    text-align: center;
+    font-size: 2.8rem;
+}
+
+::selection {
+    background-color: lime;
     color: white;
-    background: none;
-    border: 2px solid white;
+}
+
+main {
+    flex-direction: column;
+}
+
+.buttons {
+    flex-direction: row;
+    margin-top: 2rem;
+    margin-right: 64rem;
+}
+
+#button1 {
+    margin-right: 2rem;
     user-select: none;
-    font-size: 30px;
-    margin-left: -250px;
-    padding-bottom: 18px;
-    padding-top: 9px;
-    margin-left: 5px;
-    margin-right: 5px;
 }
 
-.botao1:hover {
-    color: black;
-    background-color: white;
+button {
+    width: 15rem;
+    height: 7rem;
+    border-radius: 0.3rem;
+    animation: vibrar 1.9s ease-in-out infinite both;
+    border-color: green;
+    box-shadow: 2vh 2vh 2vh rgba(0, 0, 0, 0.5);
+    color: green;
+    cursor: pointer;
 }
 
-.botao2 button {
-    background: white;
-    color: black;
-    animation: vibrar 0.9s ease-in-out infinite-both;
-    user-select: none;
-    font-size: 30px;
-    margin-left: -750px;
-    padding-bottom: 18px;
-    padding-top: 9px;
-    padding-right: 5px;
-}
-
-.botao2 a {
+button a {
+    color: green;
+    font-size: 1rem;
     text-decoration: none;
-}
-
-.botao2 button:hover {
-    background: rgba (255,255,255,0.704);
-}
-
-.titulo {
-    margin-left: 5rem;
-    color: white;
-    font-size: 80px;
-}
-
-.sub_titulo {
-    margin-left: 5rem;
-    color: white;
-    font-size: 80px;
 }
 
 @keyframes vibrar {
@@ -157,82 +113,7 @@ nav ul li a:hover {
         transform: scale(1.1);
     }
     100% {
-        transform: scale(1);
+        transform: scale (1);
     }
 }
 
-::selection {
-    background-color: lime;
-    color: white;
-}
-
-main {
-    display: flex;
-    flex-direction: column;
-    gap: 5vh;
-    margin-top: 6vh;
-}
-
-main h1 {
-    font-family: 'Sparta';
-    text-decoration: none;
-    font-size: 10vh;
-    color: white;
-    border-radius: 7vh;
-    transition: 0.3s;
-    margin-left: 8vw;
-}
-
-main div div img {
-    width: 20vw;
-    height: 25vh;
-    border-radius: 1vh;
-}
-
-main div div {
-    margin-top: 6vh;
-}
-
-main div div {
-    font-family: 'Sparta';
-    text-decoration: none;
-    font-size: 5vh;
-    color: white;
-    border-radius: 7vh;
-    transition: 0.3s;
-}
-
-main div div button {
-    width: 16vw;
-    height: 9vh;
-    font-size: 4vh;
-    font-family: 'Sparta';
-    text-decoration: none;
-    border-radius: 7vh;
-    cursor: pointer;
-    border-style: outset;
-    border-width: 0.5vh;
-    border-color: green;
-    box-shadow: 2vh 2vh 2vh rgba(0, 0, 0, 0.5);
-    color: green;
-    animation: vibrar 1.9s ease-in-out infinite both;
-}
-
-main div div button :hover {
-    box-shadow: 0 0 0 0 green, 1vh 1vh 1vh green;
-    transform: translate (2vh, 2vh);
-}
-
-main div div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 2rem;
-}
-
-#games-page {
-    display: flex;
-    gap: 10vw;
-    margin-top: 5vh;
-    margin-left: 8vw;
-}
