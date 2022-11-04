@@ -51,6 +51,7 @@ button {
     border-color: lime;
     cursor: pointer;
     transition: all 2s ease-in-out;
+    border-radius: 1rem
 }
 
 button:hover {

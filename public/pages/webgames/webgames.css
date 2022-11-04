@@ -84,6 +84,7 @@ button {
     cursor: pointer;
     font-size: 5rem;
     margin: 9rem 9rem 9rem 9rem;
+    border-radius: 1rem;
 }
 
 button a {
