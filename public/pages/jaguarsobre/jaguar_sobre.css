@@ -37,13 +37,13 @@ nav ul li {
 nav ul a {
    text-decoration: none;
    color: white;
-   font-size: 25px;
+   font-size: 3.5rem;
 }
 
 nav ul a::after {
     content: '';
     background-color: lime;
-    height: 3px;
+    height: 0.5rem;
     display: block;
     width: 0%;
     transition: 0.3s;
@@ -68,8 +68,8 @@ main {
 .logo a img {
     background-image: url(./img/jaguargamesyt.png);
     margin-top: 20px;
-    width: 280px;
     margin-left: -10px;
+    height: 10rem;
 }
 
 p {

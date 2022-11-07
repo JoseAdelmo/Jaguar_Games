@@ -44,10 +44,10 @@ nav ul a {
 nav ul a::after {
     content: '';
     background-color: lime;
-    height: 3px;
+    height: 0.5rem;
     display: block;
     width: 0%;
-    transition: 0,3s;
+    transition: 0.3s;
 }
 
 nav ul a:hover::after {

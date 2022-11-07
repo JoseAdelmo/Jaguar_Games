@@ -13,19 +13,13 @@ body {
      background-size: cover;
 }
 
-.container {
-    max-width: 1300px;
-    padding: 0 -8%;
-    margin: 0 auto;
-}
-
 .button-green {
     background-color: lime;
     padding: 15px;
     border: none;
     color: white;
     border-radius: 10px;
-    font-size: 16px;
+    font-size: 2rem;
     cursor: pointer;
 }
 
@@ -40,20 +34,16 @@ nav ul {
     list-style: none;
 }
 
-nav ul li {
-    margin: 0 50px;
-}
-
 nav ul a {
    text-decoration: none;
    color: white;
-   font-size: 25px;
+   font-size: 3.5rem;
 }
 
 nav ul a::after {
     content: '';
     background-color: lime;
-    height: 3px;
+    height: 0.5rem;
     display: block;
     width: 0%;
     transition: 0.3s;
@@ -63,68 +53,83 @@ nav ul a:hover::after {
     width: 100%;
 }
 
+nav ul li {
+    margin-top: 9rem;
+    margin-right: 65rem;
+}
+
 main {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 80px;
+    margin-top: 15rem;
 }
 .text-main {
      width: 50%;
      color: white;
+     margin-left: 18rem;
 }
 .text-main h1 {
-    font-size: 120px;
+    font-size: 15rem;
 }
-.text-main h1 span {
-    color: lime;
+.text-main span {
+    font-size: 2rem;
+}
+
+.text-main p {
+    font-size: 3rem;
 }
 .text-main .midias-sociais {
     margin-top: 10px;
 }
 .text-main .midias-sociais a {
     color: white;
-    font-size: 25px;
+    font-size: 5rem;
     text-decoration: none;
     margin-left: 10px;
 }
+
 .form-main {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 50%;
+    width: 100%;
+    margin-right: 17rem;
 }
 .form-main .form{
-    padding: 20px;
+    padding: 1.5rem;
     background-color: white;
-    border-radius: 5px;
+    border-radius: 0.2rem;
 }
 .form-main h2 {
-    font-size: 40px;
-    margin-bottom: 10px;
+    font-size: 3rem;
+    margin-bottom: 3rem;
     font-weight: 400;
 }
 .form-main .form-input {
-    margin: 15px 0;
-    width: 490px;
-    height: 80px;
+    width: 50rem;
+    height: 12rem;
 }
 .form-main .form-input input,
 .form-main .form-input textarea{
     width: 100%;
+    height: 7rem;
     border: 2px solid #CCC;
     outline: none;
     padding: 10px;
     border-radius: 7px;
     transition: 0.3s;
+    font-size: 2rem;
 }
 .form-main .form-input textarea{
-    height: 70px;
+    height: 8rem;
+    font-size: 2rem;
 }
 
 .form-main .form-input input:focus,
 .form-main .form-input textarea:focus  {
     border-color: lime;
+    font-size: 3rem;
 }
 
 ::selection {
@@ -132,9 +137,8 @@ main {
     color: white;
 }
 
-.logo a img {
-    background-image: url(./img/jaguargamesyt.png);
-    margin-top: 20px;
-    width: 280px;
-    margin-left: -10px;
+.logo img {
+    margin-left: 18rem;
+    margin-top: 5rem;
+    height: 10rem;
 }
