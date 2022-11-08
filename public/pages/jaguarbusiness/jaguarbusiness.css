@@ -55,7 +55,7 @@ nav ul a:hover::after {
 
 nav ul li {
     margin-top: 9rem;
-    margin-right: 65rem;
+    margin-right: 52rem;
 }
 
 main {
@@ -94,7 +94,6 @@ main {
     align-items: center;
     justify-content: center;
     width: 100%;
-    margin-right: 17rem;
 }
 .form-main .form{
     padding: 1.5rem;
