@@ -55,7 +55,7 @@ nav ul a:hover::after {
 
 nav ul li {
     margin-top: 9rem;
-    margin-right: 52rem;
+    margin-right: 46rem;
 }
 
 main {
@@ -63,6 +63,7 @@ main {
     align-items: center;
     justify-content: space-between;
     margin-top: 15rem;
+    margin-left: 19rem;
 }
 .text-main {
      width: 50%;
@@ -137,7 +138,7 @@ main {
 }
 
 .logo img {
-    margin-left: 18rem;
+    margin-left: 35rem;
     margin-top: 5rem;
     height: 10rem;
 }
