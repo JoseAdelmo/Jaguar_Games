@@ -9,7 +9,7 @@
 
 body {
      background-image: linear-gradient(#00000088, #00000028),url("img/background5.jpg");
-     min-height: 100vh;
+     min-height: 96vh;
      background-size: cover;
 }
 
